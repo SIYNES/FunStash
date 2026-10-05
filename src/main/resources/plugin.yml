@@ -1,0 +1,10 @@
+name: FunStash
+version: '${version}'
+main: ru.siynes.funstash.FunStash
+api-version: '1.16'
+authors: [SIYNES]
+website: https://github.com/SIYNES
+depend:
+  - DecentHolograms
+commands:
+  funstash:

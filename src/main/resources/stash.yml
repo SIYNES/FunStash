@@ -1,0 +1,72 @@
+stashes:
+  tools:
+    location:
+      world: world
+      x: -259
+      y: 85
+      z: 220
+    key:
+      material: TRIPWIRE_HOOK
+      pdc:
+        stash_key: "tools"
+      name: "&b[★] &3Отмычка к Инструментам"
+      lore:
+        - "&9Этой отмычкой можно"
+        - "&9Открыть хранилище"
+        - "&9С Инструментами"
+    hologram:
+      enabled: true
+      offset: { x: 0.5, y: 1.8, z: 0.5 }
+      lines:
+        - "&6[Тайник]"
+        - "&fc инструментами"
+    loot:
+      sword:
+        name: "&fМечик"
+        lore:
+          - "&fочень крутой меч"
+        type: ITEM
+        material: IRON_SWORD
+        itemFlags:
+          - HIDE_ENCHANTS
+        enchantments:
+          DAMAGE_ALL: 5
+          FIRE_ASPECT: 2
+          DURABILITY: 3
+        attributes:
+          GENERIC_ATTACK_DAMAGE:
+            name: "generic.attackDamage"
+            amount: 10.0
+            operation: ADD_NUMBER
+            slot: HAND
+        amount: 1
+        chance: 0.5
+      mascot:
+        name: " &x&0&0&9&4&F&FЛегендарная сфера"
+        lore:
+          - ' &7• &fСкорость II'
+          - ' &7• &fУрон II'
+          - ' &f'
+          - ' &7&oВозьмите предмет в левую руку,'
+          - ' &7&oчтобы активировать магию.'
+          - ' &7&oПодробнее о сферах - &f&o/itemhelp'
+        type: HEAD
+        material: PLAYER_HEAD
+        head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM5MzY1NjQyYzZlZGRjZmVkZjViNWUxNGUyYmM3MTI1N2Q5ZTRhMzM2M2QxMjNjNmYzM2M1NWNhZmJmNmQifX19"
+        place: false
+        itemFlags:
+          - HIDE_ATTRIBUTES
+        attributes:
+          GENERIC_ATTACK_DAMAGE:
+            name: "generic.attackDamage"
+            amount: 2.0
+            operation: ADD_NUMBER
+            slot: OFF_HAND
+          GENERIC_MOVEMENT_SPEED:
+            name: "generic.movementSpeed"
+            amount: 0.02
+            operation: ADD_NUMBER
+            slot: OFF_HAND
+        amount: 1
+        chance: 0.5
+

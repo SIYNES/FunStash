@@ -1,0 +1,17 @@
+opening:
+  cooldown-seconds: 5
+  hologram-seconds: 5
+
+animation:
+  waves: 21
+  interval-ticks: 2
+  particles:
+    top:
+      type: LAVA
+      count: 10
+    around:
+      type: FLAME
+      count: 10
+    finish:
+      type: END_ROD
+      count: 80
